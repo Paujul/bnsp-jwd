@@ -7,7 +7,7 @@ const Sidebar = () => {
     { id: 5, name: "Klien Kami" },
   ]
   return (
-    <div className='h-full px-5 fixed z-10'>
+    <div className='p-5 fixed z-10 bg-white rounded-b-lg'>
       <div className='p-5 w-36 inline-block'>
         <img src='./assets/logo.png' alt='Logo' className='w-24 h-24' />
       </div>

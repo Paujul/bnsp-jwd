@@ -53,12 +53,27 @@ const Article = () => {
       img: "https://asset-2.tstatic.net/jogja/foto/bank/images/biawak-berlafaz-allah.jpg",
     },
   ]
+  //
 
   return (
     <div className='bg-gray-100 min-h-screen'>
       <Sidebar />
       <Topbar />
-      <div className='container mx-auto mt-12'>
+      <div className='container mx-auto mt-12 mb-5'>
+        <div className='relative my-5' id='products'>
+          <div className='bg-black/50 w-full h-52 absolute rounded-lg'>
+            <h1 className='text-white text-4xl font-bold z-10 text-center left-52 mt-20 select-none'>
+              Berita & Artikel
+            </h1>
+          </div>
+
+          <img
+            src='https://thumb.viva.co.id/media/frontend/thumbs3/2015/10/20/343405_pria-buang-air-besar-sambil-membaca-_1265_711.jpg'
+            alt='banner'
+            className='rounded-lg object-cover w-full h-52'
+          />
+        </div>
+
         <div className='grid grid-cols-4 gap-5 grid-rows-2'>
           {items.map((item) => (
             <div key={item.id}>
@@ -78,13 +93,15 @@ const Article = () => {
                 className='h-[255px] object-cover w-full'
               />
               <p className='h-[106px] p-6 text-green-600 bg-white rounded-b-lg'>
-                {item.desc}
+                <a href={item.url} target='_blank' rel='noreferrer'>
+                  {item.desc}
+                </a>
               </p>
             </div>
           ))}
         </div>
       </div>
-      <Footer style='fixed w-full bottom-0' />
+      <Footer />
     </div>
   )
 }

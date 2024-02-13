@@ -1,10 +1,10 @@
 const Sidebar = () => {
   const items = [
-    { id: 1, name: "Home" },
-    { id: 2, name: "Artikel" },
-    { id: 3, name: "Event" },
-    { id: 4, name: "Galeri Foto" },
-    { id: 5, name: "Klien Kami" },
+    { id: 1, name: "Home", target: "/" },
+    { id: 2, name: "Artikel", target: "/article" },
+    { id: 3, name: "Event", target: "/event" },
+    { id: 4, name: "Galeri Foto", target: "/gallery" },
+    { id: 5, name: "Klien Kami", target: "/clients" },
   ]
   return (
     <div className='p-5 fixed z-10 bg-white rounded-b-lg'>
@@ -16,7 +16,7 @@ const Sidebar = () => {
         <ul>
           {items.map((item) => (
             <li key={item.id} className='py-2 text-center'>
-              <a href='#'>{item.name}</a>
+              <a href={item.target}>{item.name}</a>
             </li>
           ))}
         </ul>

@@ -1,10 +1,15 @@
+import { useNavigate } from "react-router-dom"
+
 const Topbar = () => {
+  const navigate = useNavigate()
+  console.log(navigate)
+
   const items = [
-    { id: 1, name: "Profile", target: "#profile" },
-    { id: 2, name: "Visi dan Misi", target: "#visimisi" },
-    { id: 3, name: "Produk Kami", target: "#asd" },
-    { id: 4, name: "Kontak Kami", target: "#contact" },
-    { id: 5, name: "About Us", target: "#about" },
+    { id: 1, name: "Profile", target: "/#about" },
+    { id: 2, name: "Visi dan Misi", target: "/goals" },
+    { id: 3, name: "Produk Kami", target: "/#products" },
+    { id: 4, name: "Kontak Kami", target: "/contact" },
+    { id: 5, name: "About Us", target: "/#about" },
   ]
 
   return (

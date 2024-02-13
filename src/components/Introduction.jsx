@@ -2,7 +2,7 @@ const Introduction = () => {
   return (
     <>
       <div className='relative my-5'>
-        <div className='bg-black/50 w-full h-52 absolute rounded-lg'>
+        <div className='bg-black/50 w-full h-52 absolute rounded-lg' id='about'>
           <h1 className='text-white text-4xl font-bold z-10 text-center left-52 mt-20 select-none'>
             Profil Kami
           </h1>

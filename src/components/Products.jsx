@@ -27,7 +27,7 @@ const Products = () => {
 
   return (
     <>
-      <div className='relative my-5' id='asd'>
+      <div className='relative my-5' id='products'>
         <div className='bg-black/50 w-full h-52 absolute rounded-lg'>
           <h1 className='text-white text-4xl font-bold z-10 text-center left-52 mt-20 select-none'>
             Produk Kami
@@ -40,7 +40,7 @@ const Products = () => {
           className='rounded-lg object-cover object-center w-full h-52'
         />
       </div>
-      <div className='flex gap-6 my-2'>
+      <div className='flex gap-6 my-2 select-none'>
         {items.map((item) => (
           <div key={item.id} className='w-[385px] h-[465px]'>
             <h3 className='h-24 bg-white flex items-center rounded-t-lg'>

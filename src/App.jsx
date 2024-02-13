@@ -1,11 +1,7 @@
-// import { useState } from "react"
 import Topbar from "./components/Topbar"
 import Sidebar from "./components/Sidebar"
-import Introduction from "./components/Introduction"
-import Products from "./components/Products"
 import Footer from "./components/Footer"
-
-// import BackgroundImage from "./assets/banner.jpg"
+import Home from "./pages/Home"
 
 const App = () => {
   return (
@@ -13,9 +9,7 @@ const App = () => {
       <Sidebar />
       <div className='container mx-auto'>
         <Topbar />
-        asdasd
-        <Introduction />
-        <Products />
+        <Home />
       </div>
       <Footer />
     </div>

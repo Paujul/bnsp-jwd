@@ -9,6 +9,8 @@ import Vision from "./pages/Vision.jsx"
 import Contact from "./pages/Contact.jsx"
 import Article from "./pages/Article.jsx"
 import NotFound from "./pages/NotFound.jsx"
+import Event from "./pages/Event.jsx"
+import Gallery from "./pages/Gallery.jsx"
 // import router from "./config/router.js"
 
 const router = createBrowserRouter([
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
   {
     path: "/article",
     element: <Article />,
+  },
+  {
+    path: "/event",
+    element: <Event />,
+  },
+  {
+    path: "/gallery",
+    element: <Gallery />,
   },
 ])
 

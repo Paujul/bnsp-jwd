@@ -23,4 +23,4 @@ yarn
 - Paujul
 
 
-[Github]([https://nodejs.org](https://github.com/Paujul/bnsp-jwd)https://github.com/Paujul/bnsp-jwd)
+[Github](https://nodejs.org](https://github.com/Paujul/bnsp-jwd)https://github.com/Paujul/bnsp-jwd)

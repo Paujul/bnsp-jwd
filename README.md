@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- [Node.js > 16>](https://nodejs.org)
+- [Node.js > 16](https://nodejs.org)
 - [Yarn](https://classic.yarnpkg.com)
 
 ## Installation

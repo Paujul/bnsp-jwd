@@ -1,9 +1,4 @@
-import { useNavigate } from "react-router-dom"
-
 const Topbar = () => {
-  const navigate = useNavigate()
-  console.log(navigate)
-
   const items = [
     { id: 1, name: "Profile", target: "/#about" },
     { id: 2, name: "Visi dan Misi", target: "/goals" },
@@ -15,10 +10,6 @@ const Topbar = () => {
   return (
     <div className='w-full'>
       <div className='flex items-center py-5'>
-        {/* <div className='p-5 w-36 inline-block'>
-      <img src='./assets/logo.png' alt='Logo' className='w-24 h-24' />
-    </div> */}
-
         <h1 className='text-center inline-block w-full text-3xl font-bold pr-9'>
           Biawak Motors
         </h1>

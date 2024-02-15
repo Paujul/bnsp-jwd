@@ -11,6 +11,9 @@ import Article from "./pages/Article.jsx"
 import NotFound from "./pages/NotFound.jsx"
 import Event from "./pages/Event.jsx"
 import Gallery from "./pages/Gallery.jsx"
+import Login from "./pages/Login.jsx"
+import Client from "./pages/Client.jsx"
+import Register from "./pages/Register.jsx"
 // import router from "./config/router.js"
 
 const router = createBrowserRouter([
@@ -40,6 +43,18 @@ const router = createBrowserRouter([
   {
     path: "/gallery",
     element: <Gallery />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/client",
+    element: <Client />,
+  },
+  {
+    path: "/signup",
+    element: <Register />,
   },
 ])
 

@@ -60,7 +60,7 @@ const Article = () => {
       <Sidebar />
       <Topbar />
       <div className='container mx-auto mt-12 mb-5'>
-        <div className='relative my-5' id='products'>
+        <div className='relative my-5'>
           <div className='bg-black/50 w-full h-52 absolute rounded-lg'>
             <h1 className='text-white text-4xl font-bold z-10 text-center left-52 mt-20 select-none'>
               Berita & Artikel

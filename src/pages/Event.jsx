@@ -51,7 +51,7 @@ const Event = () => {
       <Sidebar />
       <Topbar />
       <div className='container mx-auto flex flex-col justify-center'>
-        <div className='relative my-5' id='products'>
+        <div className='relative my-5'>
           <div className='bg-black/50 w-full h-52 absolute rounded-lg'>
             <h1 className='text-white text-4xl font-bold z-10 text-center left-52 mt-20 select-none'>
               Event & Kegiatan

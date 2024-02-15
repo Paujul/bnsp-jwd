@@ -4,7 +4,7 @@ import Topbar from "../components/Topbar"
 
 const NotFound = () => {
   return (
-    <div className='bg-gray-100 min-h-screen'>
+    <div className='bg-gray-100 min-h-screen select-none'>
       <Sidebar />
       <Topbar />
       <div className='container mx-auto flex flex-col justify-center mt-52'>
